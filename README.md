@@ -1,10 +1,10 @@
 # Introdução ao Cubo Mágico
 ## Esquema de Cores
 As cores encontradas no Cubo Mágico seguem as seguintes regras:
-* **Branco** oposto ao <span style="color:yellow">**Amarelo**</span>
+* **Branco** oposto ao <span style="color:#9c9720">**Amarelo**</span>
 * <span style="color:red">**Vermelho**</span> oposto ao <span style="color:orange">**Laranja**</span> (cores quentes)
 * <span style="color:blue">**Azul**</span> oposto ao <span style="color:green">**Verde**</span> (cores frias)
-* Com <span style="color:red">**Vermelho**</span> na frente e <span style="color:yellow">**Amarelo**</span> em cima, à direita se tem o <span style="color:green">**Verde**</span>
+* Com <span style="color:red">**Vermelho**</span> na frente e <span style="color:#9c9720">**Amarelo**</span> em cima, à direita se tem o <span style="color:green">**Verde**</span>
 
 <img src="cores/cores1.png" alt="drawing" width="200"/><img src="cores/cores2.png" alt="drawing" width="200"/>
 
@@ -28,7 +28,7 @@ O cubo é formado por 3 tipos de peças, são elas:
 Ao contrário do senso comum, não existe somente uma forma para se resolver o Cubo Mágico. Existem alguns métodos, e nesse material será explicado o método **Roux**
 
 ## Movimentos do Cubo
-Para aprender qualquer método é necessário saber movimentar as peças do Cubo. Abaixo são mostrados os movimentos.
+Para aprender qualquer método é necessário saber movimentar as peças do Cubo. Abaixo são mostrados os movimentos, considerando o **Cubo resolvido**, com  a face <span style="color:red">**Vermelha**</span> na frente e a <span style="color:#9c9720">**Amarela**</span> em cima.
 
 # Método Roux Iniciante
 
