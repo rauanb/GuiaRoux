@@ -68,9 +68,33 @@ Para aprender qualquer método é necessário saber movimentar as peças do Cubo
 |z|z2|z'|||
 |<img src="moves/Eixos/Z.png" alt="drawing" width="100"/>|<img src="moves/Eixos/Z2.png" alt="drawing" width="100"/>|<img src="moves/Eixos/Zlinha.png" alt="drawing" width="100"/>
 
+A título de exemplo, é mostrada a seguir a fórmula **Sune**, movimento a movimento, aplicada com o **Cubo resolvido**.
 
+||R|U|R'|U|R|U2|R'
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|<img src="moves/Sune/0.png" alt="drawing" width="100"/>|<img src="moves/Sune/1.png" alt="drawing" width="100"/>|<img src="moves/Sune/2.png" alt="drawing" width="100"/>|<img src="moves/Sune/3.png" alt="drawing" width="100"/>|<img src="moves/Sune/4.png" alt="drawing" width="100"/>|<img src="moves/Sune/5.png" alt="drawing" width="100"/>|<img src="moves/Sune/6.png" alt="drawing" width="100"/>|<img src="moves/Sune/7.png" alt="drawing" width="100"/>
+
+## Como Embaralhar
+Para embaralhar, segundo as orientações da **World Cube Association** (WCA), o **Cubo resolvido** deve ser orientado com a face <span style="color:green">**Verde**</span> na frente e a **Branca** em cima. A seguir é mostrado o Cubo após realizado o seguinte embaralhamento:
+
+**F U2 L2 B2 F' U L2 U R2 D2 L' B L2 B' R2 U2**
+
+<img src="embaralhamento/wr0.png" alt="drawing" width="200"/>
 
 # Método Roux Iniciante
+Inicialmente é necessário escolher uma **Orientação**, ou seja, a posição que o cubo ficará para ser resolvido. Há 24 possibilidades, e aqui será escolhida a mesma usada na seção de movimentos, ou seja, <span style="color:red">**Vermelho**</span> na frente e <span style="color:#9c9720">**Amarelo**</span> em cima. Essa orientação é a que o cubo permanecerá durante toda a solução.
+## Primeiro Bloco
+A primeira etapa do Método Roux é o Primeiro Bloco, do inglês First Block, simplificado para **FB**. Ele é montado na **ESQUERDA** e consiste em 6 peças, sendo 1 centro, 3 meios e 2 cantos. Considerando a orientação escolhida, o primeiro bloco será <span style="color:blue">**Azul**</span> com **Branco** embaixo. A seguir é mostrado o Primeiro Bloco. Observe que na primeira imagem o Cubo é mostrado com o <span style="color:blue">**Azul**</span> na frente apenas para facilitar a visualização.
+
+<img src="fb/fb3.png" alt="drawing" width="200"/> <img src="fb/fb1.png" alt="drawing" width="200"/>
+
+Há muitas maneiras para se montar o Primeiro Bloco. A técnica utilizada aqui é focada na simplicidade e facilidade para iniciantes. Para ténicas mais avançadas consultar seção **Primeiro Bloco** do capítulo **Método Roux Completo**.
+
+Inicialmente deve-se posicionar o centro <span style="color:blue">**Azul**</span> na **ESQUERDA**, o que coloca o centro <span style="color:green">**Verde**</span> na **DIREITA**
+
+<img src="fb/centro1.png" alt="drawing" width="200"/> <img src="fb/centro2.png" alt="drawing" width="200"/>
+
+A seguir deve-se encontrar o meio (peça de duas cores) <span style="color:blue">**Azul**</span> e **Branco** e encaixar o seu <span style="color:blue">**Azul**</span> ao centro <span style="color:blue">**Azul**</span>
 
 # Método Roux Completo
 ## Neutralidade de cor
