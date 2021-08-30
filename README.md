@@ -88,13 +88,11 @@ A primeira etapa do Método Roux é o Primeiro Bloco, do inglês First Block, si
 
 <img src="fb/fb3.png" alt="drawing" width="200"/> <img src="fb/fb1.png" alt="drawing" width="200"/>
 
-Há muitas maneiras para se montar o Primeiro Bloco. A técnica utilizada aqui é focada na simplicidade e facilidade para iniciantes. Para ténicas mais avançadas consultar seção **Primeiro Bloco** do capítulo **Método Roux Completo**.
+Há muitas maneiras para se montar o Primeiro Bloco. A técnica utilizada aqui é focada na simplicidade e facilidade para iniciantes. Para técnicas mais avançadas, consulte a seção **Primeiro Bloco** do capítulo **Método Roux Completo**.
 
-Inicialmente deve-se posicionar o centro <span style="color:blue">**Azul**</span> na **ESQUERDA**, o que coloca o centro <span style="color:green">**Verde**</span> na **DIREITA**
+Inicialmente deve-se encontrar o meio (peça de duas cores) <span style="color:blue">**Azul**</span> e **Branco** e encaixar o seu <span style="color:blue">**Azul**</span> ao centro <span style="color:blue">**Azul**</span>. Algumas vezes será necessário apenas um movimento, como mostrado na figura a seguir, em que é realizado o movimento **F'**.
 
-<img src="fb/centro1.png" alt="drawing" width="200"/> <img src="fb/centro2.png" alt="drawing" width="200"/>
-
-A seguir deve-se encontrar o meio (peça de duas cores) <span style="color:blue">**Azul**</span> e **Branco** e encaixar o seu <span style="color:blue">**Azul**</span> ao centro <span style="color:blue">**Azul**</span>
+<img src="fb/edge/1.png" alt="drawing" width="200"/> <img src="fb/edge/2.png" alt="drawing" width="200"/>
 
 # Método Roux Completo
 ## Neutralidade de cor
