@@ -92,7 +92,7 @@ Para embaralhar, segundo as orientações da **World Cube Association** (WCA), o
 # Método Roux Iniciante
 Inicialmente é necessário escolher uma **Orientação**, ou seja, a posição que o cubo ficará para ser resolvido. Há 24 possibilidades, e aqui será escolhida a mesma usada na seção de movimentos, ou seja, <span style="color:red">**Vermelho**</span> na frente e <span style="color:#9c9720">**Amarelo**</span> em cima. Essa orientação é a que o cubo permanecerá durante toda a solução.
 ## Primeiro Bloco
-A primeira etapa do Método Roux é o Primeiro Bloco, do inglês First Block, simplificado para **FB**. Ele é montado na **ESQUERDA** e consiste em 6 peças, sendo 1 centro, 3 meios e 2 cantos. Considerando a orientação escolhida, o primeiro bloco será <span style="color:blue">**Azul**</span> com **Branco** embaixo. A seguir é mostrado o Primeiro Bloco. Todas as imagens dessa etapa terão o <span style="color:blue">**Azul**</span> na frente apenas para facilitar a visualização.
+A primeira etapa do Método Roux é o Primeiro Bloco, do inglês First Block, simplificado para **FB**. Ele é montado na **ESQUERDA** e consiste em 6 peças, sendo 1 centro, 3 meios e 2 cantos. Considerando a orientação escolhida, o primeiro bloco será <span style="color:blue">**Azul**</span> com **Branco** embaixo. A seguir é mostrado o Primeiro Bloco. Algumas imagens dessa etapa terão o <span style="color:blue">**Azul**</span> na frente apenas para facilitar a visualização.
 
 |Primeiro Bloco|
 |:-:|
@@ -100,13 +100,13 @@ A primeira etapa do Método Roux é o Primeiro Bloco, do inglês First Block, si
 
 Há muitas maneiras para se montar o Primeiro Bloco. A técnica utilizada aqui é focada na simplicidade e facilidade para iniciantes. Para técnicas mais avançadas, consulte a seção **Primeiro Bloco** do capítulo **Método Roux Completo**.
 
-Inicialmente deve-se encontrar o meio (peça de duas cores) <span style="color:blue">**Azul**</span> e **Branco** e encaixar o seu <span style="color:blue">**Azul**</span> ao centro <span style="color:blue">**Azul**</span>. Algumas vezes será necessário apenas um movimento, como mostrado na figura a seguir, em que é realizado o movimento **F'**.
+Inicialmente deve-se encontrar o meio (peça de duas cores) <span style="color:blue">**Azul**</span> e **Branco** e encaixar o seu <span style="color:blue">**Azul**</span> ao centro <span style="color:blue">**Azul**</span>. Algumas vezes será necessário apenas um movimento, como no exemplo abaixo.
 
 ||F'|
 |:-:|:-:|
 |<img src="fb/edge/1.png" alt="drawing" width="200"/>|<img src="fb/edge/2.png" alt="drawing" width="200"/>|
 
-Outras vezes serão necessários 2 movimentos, como mostrado na sequência **F U** a seguir.
+Outras vezes serão necessários 2 movimentos, como no exemplo.
 ||F|U|
 |:-:|:-:|:-:|
 |<img src="fb/edge/3.png" alt="drawing" width="200"/>|<img src="fb/edge/4.png" alt="drawing" width="200"/>|<img src="fb/edge/5.png" alt="drawing" width="200"/>
@@ -117,24 +117,96 @@ Após encaixar o meio <span style="color:blue">**Azul**</span> e **Branco** corr
 |:-:|
 |<img src="fb/edge/6.png" alt="drawing" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="fb/edge/7.png" alt="drawing" width="200"/>|
 
-Observe que agora que os movimentos D, **D'** e **D2** não podem mais ser realizados, pois iriam desfazer o que foi resolvido até o momento.
+**MOVIMENTOS PROIBIDOS:** As camadas **D** e **L** não podem mais ser mexidas.
 
-Próximo passo é encontrar o meio (peça de duas cores) <span style="color:blue">**Azul**</span> e <span style="color:red">**Vermelho**</span> ou <span style="color:blue">**Azul**</span> e <span style="color:orange">**Laranja**</span>, e levá-lo até a  **Posição de Espera**, que é a posição que está na **Frente** e **Embaixo**.
+Lembrando que, ao posicionar o cubo, o centro <span style="color:green">**Verde**</span> ficará na sua **DIREITA**, pois ele é oposto ao <span style="color:blue">**Azul**</span>.
+
+Próximo passo é encontrar o meio (peça de duas cores) <span style="color:blue">**Azul**</span> e <span style="color:red">**Vermelho**</span> e levá-lo até a  **Posição de Espera**, que é a posição que está na **Frente** e **Embaixo**, como no exemplo.
  
-  A seguir é mostrado um exemplo com o meio <span style="color:blue">**Azul**</span> e <span style="color:red">**Vermelho**</span>.
-
 ||U'|M|
 |:-:|:-:|:-:|
 |<img src="fb/par1/1.png" alt="drawing" width="200"/>|<img src="fb/par1/2.png" alt="drawing" width="200"/>|<img src="fb/par1/3.png" alt="drawing" width="200"/>|
 
-O meio pode estar em duas orientações possíveis, sendo ambas corretas, como mostrado a seguir.
+O meio pode estar em duas orientações possíveis, sendo ambas corretas.
 
 |||
 |:-:|:-:|
 |<img src="fb/par1/4.png" alt="drawing" width="200"/>|<img src="fb/par1/5.png" alt="drawing" width="200"/>|
 
-O passo seguinte é encontrar o Canto (peça de 3 cores) que faz par com a peça na **Posição de Espera**. No exemplo, o meio que está na **Posição de Espera** é <span style="color:blue">**Azul**</span> e <span style="color:red">**Vermelho**</span>, logo o canto que faz par com ela é <span style="color:blue">**Azul**</span> e <span style="color:red">**Vermelho**</span> e **Branco**. Esse canto deve ser levado até a camada de cima, com o seu **Branco** para o lado **DIREITO** OU **ESQUERDO**
+O passo seguinte é encontrar o canto (peça de 3 cores) que faz par com a peça na **Posição de Espera**, que é o <span style="color:blue">**Azul**</span>, <span style="color:red">**Vermelho**</span> e **Branco**. Leve esse canto para a camada de cima, de forma que o seu **Branco** fique para a **DIREITA** OU para a **ESQUERDA**.
 
+Abaixo é mostrado um caso que precisa de atenção, pois o canto está na posição **FDL**, ou seja, na **FRENTE** **EMBAIXO** na **ESQUERDA**.
+
+||L'|U'|L|
+|:-:|:-:|:-:|:-:|
+|<img src="fb/par1/16.png" alt="drawing" width="200"/>|<img src="fb/par1/17.png" alt="drawing" width="200"/>|<img src="fb/par1/18.png" alt="drawing" width="200"/>|<img src="fb/par1/19.png" alt="drawing" width="200"/>|
+
+Se o **Branco** estiver para cima:
+* Leve o canto para a posição na **DIREITA ATRÁS** girando a camada de cima
+* Gire a direita no sentido anti-horário
+* Gire a camada de cima no sentido horário
+
+
+
+||U'|R'|U|
+|:-:|:-:|:-:|:-:|
+|<img src="fb/par1/6.png" alt="drawing" width="200"/>|<img src="fb/par1/7.png" alt="drawing" width="200"/>|<img src="fb/par1/8.png" alt="drawing" width="200"/>|<img src="fb/par1/9.png" alt="drawing" width="200"/>|<img src="fb/par1/9.png" alt="drawing" width="200"/>|
+
+O passo seguinte é formar o par, levando o meio que está na **posição de espera** até o canto, girando a camada M.
+
+||M'||
+|:-:|:-:|:-:|
+|<img src="fb/par1/9.png" alt="drawing" width="200"/>|<img src="fb/par1/10.png" alt="drawing" width="200"/>|<img src="fb/par1/20.png" alt="drawing" width="200"/>|
+
+Caso o par fique com as cores trocadas, você deve:
+* Voltar o meio para a posição de espera
+* Girar a camada de cima 2 vezes
+* Formar o par novamente na nova posição
+
+||M|U2|M2|
+|:-:|:-:|:-:|:-:|
+|<img src="fb/par1/11.png" alt="drawing" width="200"/>|<img src="fb/par1/12.png" alt="drawing" width="200"/>|<img src="fb/par1/13.png" alt="drawing" width="200"/>|<img src="fb/par1/15.png" alt="drawing" width="200"/>|
+
+Depois de formar o par, ele deve ser posicionado na **FRENTE** e encaixado, com uma das formas a seguir.
+
+||F'|
+|:-:|:-:|
+|<img src="fb/par1/20.png" alt="drawing" width="200"/>|<img src="fb/par1/21.png" alt="drawing" width="200"/>|
+
+||Rw'|F|
+|:-:|:-:|:-:|
+|<img src="fb/par1/22.png" alt="drawing" width="200"/>|<img src="fb/par1/23.png" alt="drawing" width="200"/>|<img src="fb/par1/21.png" alt="drawing" width="200"/>|
+
+**MOVIMENTOS PROIBIDOS:** As camadas **D**, **L** e **F** não podem mais ser mexidas.
+
+O mesmo processo vai ser feito para o par de trás, que é o <span style="color:blue">**Azul**</span> e <span style="color:orange">**Laranja**</span>:
+* O meio <span style="color:blue">**Azul**</span> e <span style="color:orange">**Laranja**</span> deve ser levado até a **Posição de Espera**
+
+||B'|M2|
+|:-:|:-:|:-:|
+|<img src="fb/par2/0.png" alt="drawing" width="200"/>|<img src="fb/par2/1.png" alt="drawing" width="200"/>|<img src="fb/par2/2.png" alt="drawing" width="200"/>|
+* O canto <span style="color:blue">**Azul**</span>, <span style="color:orange">**Laranja**</span> e **Branco** deve ser colocado na camada de **CIMA** com o **Branco** para a **Direita** ou **Esquerda**.
+
+|||R|U'|
+|:-:|:-:|:-:|:-:|
+|<img src="fb/par2/3.png" alt="drawing" width="200"/>|<img src="fb/par2/4.png" alt="drawing" width="200"/>|<img src="fb/par2/5.png" alt="drawing" width="200"/>|<img src="fb/par2/6.png" alt="drawing" width="200"/>|
+* O par deve ser formado usando **M'** ou **M2**, posicionado e encaixado **ATRÁS**. 
+
+||M2||Rw|B'|
+|:-:|:-:|:-:|:-:|:-:|
+|<img src="fb/par2/6.png" alt="drawing" width="200"/>|<img src="fb/par2/7.png" alt="drawing" width="200"/>|<img src="fb/par2/8.png" alt="drawing" width="200"/>|<img src="fb/par2/9.png" alt="drawing" width="200"/>|<img src="fb/par2/10.png" alt="drawing" width="200"/>|
+
+||B|
+|:-:|:-:|
+|<img src="fb/par2/11.png" alt="drawing" width="200"/>|<img src="fb/fb3.png" alt="drawing" width="200"/>|
+
+## Segundo Bloco
+
+A segunda etapa do Método Roux é o Segundo Bloco, do inglês Second Block, simplificado para **SB**. Ele é montado na **DIREITA** e consiste em 6 peças, sendo 1 centro, 3 meios e 2 cantos. Considerando a orientação escolhida, o segundo bloco será <span style="color:blue">**Azul**</span> com **Branco** embaixo. A seguir é mostrado o Primeiro Bloco. Algumas imagens dessa etapa terão o <span style="color:blue">**Azul**</span> na frente apenas para facilitar a visualização.
+
+|Segundo Bloco|
+|:-:|
+|<img src="fb/fb3.png" alt="drawing" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="fb/fb1.png" alt="drawing" width="200"/>|
 
 # Método Roux Completo
 ## Neutralidade de cor
