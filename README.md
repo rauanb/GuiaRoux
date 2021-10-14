@@ -76,7 +76,7 @@ Para aprender qualquer método é necessário saber movimentar as peças do Cubo
 
 A título de exemplo, é mostrada a seguir a fórmula **Sune**, movimento a movimento, aplicada com o **Cubo resolvido**.
 
-||R|U|R'|U|R|U2|R'
+|Exemplo|R|U|R'|U|R|U2|R'
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |<img src="moves/Sune/0.png" alt="drawing" width="100"/>|<img src="moves/Sune/1.png" alt="drawing" width="100"/>|<img src="moves/Sune/2.png" alt="drawing" width="100"/>|<img src="moves/Sune/3.png" alt="drawing" width="100"/>|<img src="moves/Sune/4.png" alt="drawing" width="100"/>|<img src="moves/Sune/5.png" alt="drawing" width="100"/>|<img src="moves/Sune/6.png" alt="drawing" width="100"/>|<img src="moves/Sune/7.png" alt="drawing" width="100"/>
 
@@ -102,12 +102,12 @@ Há muitas maneiras para se montar o Primeiro Bloco. A técnica utilizada aqui �
 
 Inicialmente deve-se encontrar o meio (peça de duas cores) <span style="color:blue">**Azul**</span> e **Branco** e encaixar o seu <span style="color:blue">**Azul**</span> ao centro <span style="color:blue">**Azul**</span>. Algumas vezes será necessário apenas um movimento, como no exemplo abaixo.
 
-||F'|
+|Exemplo|F'|
 |:-:|:-:|
 |<img src="fb/edge/1.png" alt="drawing" width="200"/>|<img src="fb/edge/2.png" alt="drawing" width="200"/>|
 
 Outras vezes serão necessários 2 movimentos, como no exemplo.
-||F|U|
+|Exemplo|F|U|
 |:-:|:-:|:-:|
 |<img src="fb/edge/3.png" alt="drawing" width="200"/>|<img src="fb/edge/4.png" alt="drawing" width="200"/>|<img src="fb/edge/5.png" alt="drawing" width="200"/>
 
@@ -123,7 +123,7 @@ Lembrando que, ao posicionar o cubo, o centro <span style="color:green">**Verde*
 
 Próximo passo é encontrar o meio (peça de duas cores) <span style="color:blue">**Azul**</span> e <span style="color:red">**Vermelho**</span> e levá-lo até a  **Posição de Espera**, que é a posição que está na **Frente** e **Embaixo**, como no exemplo.
  
-||U'|M|
+|Exemplo|U'|M|
 |:-:|:-:|:-:|
 |<img src="fb/par1/1.png" alt="drawing" width="200"/>|<img src="fb/par1/2.png" alt="drawing" width="200"/>|<img src="fb/par1/3.png" alt="drawing" width="200"/>|
 
@@ -137,7 +137,7 @@ O passo seguinte é encontrar o canto (peça de 3 cores) que faz par com a peça
 
 Abaixo é mostrado um caso que precisa de atenção, pois o canto está na posição **FDL**, ou seja, na **FRENTE** **EMBAIXO** na **ESQUERDA**.
 
-||L'|U'|L|
+|Exemplo|L'|U'|L|
 |:-:|:-:|:-:|:-:|
 |<img src="fb/par1/16.png" alt="drawing" width="200"/>|<img src="fb/par1/17.png" alt="drawing" width="200"/>|<img src="fb/par1/18.png" alt="drawing" width="200"/>|<img src="fb/par1/19.png" alt="drawing" width="200"/>|
 
@@ -148,13 +148,13 @@ Se o **Branco** estiver para cima:
 
 
 
-||U'|R'|U|
+|Exemplo|U'|R'|U|
 |:-:|:-:|:-:|:-:|
 |<img src="fb/par1/6.png" alt="drawing" width="200"/>|<img src="fb/par1/7.png" alt="drawing" width="200"/>|<img src="fb/par1/8.png" alt="drawing" width="200"/>|<img src="fb/par1/9.png" alt="drawing" width="200"/>|<img src="fb/par1/9.png" alt="drawing" width="200"/>|
 
 O passo seguinte é formar o par, levando o meio que está na **posição de espera** até o canto, girando a camada M.
 
-||M'||
+|Exemplo|M'||
 |:-:|:-:|:-:|
 |<img src="fb/par1/9.png" alt="drawing" width="200"/>|<img src="fb/par1/10.png" alt="drawing" width="200"/>|<img src="fb/par1/20.png" alt="drawing" width="200"/>|
 
@@ -163,17 +163,17 @@ Caso o par fique com as cores trocadas, você deve:
 * Girar a camada de cima 2 vezes
 * Formar o par novamente na nova posição
 
-||M|U2|M2|
+|Exemplo|M|U2|M2|
 |:-:|:-:|:-:|:-:|
 |<img src="fb/par1/11.png" alt="drawing" width="200"/>|<img src="fb/par1/12.png" alt="drawing" width="200"/>|<img src="fb/par1/13.png" alt="drawing" width="200"/>|<img src="fb/par1/15.png" alt="drawing" width="200"/>|
 
 Depois de formar o par, ele deve ser posicionado na **FRENTE** e encaixado, com uma das formas a seguir.
 
-||F'|
+|Exemplo|F'|
 |:-:|:-:|
 |<img src="fb/par1/20.png" alt="drawing" width="200"/>|<img src="fb/par1/21.png" alt="drawing" width="200"/>|
 
-||Rw'|F|
+|Exemplo|Rw'|F|
 |:-:|:-:|:-:|
 |<img src="fb/par1/22.png" alt="drawing" width="200"/>|<img src="fb/par1/23.png" alt="drawing" width="200"/>|<img src="fb/par1/21.png" alt="drawing" width="200"/>|
 
@@ -182,31 +182,95 @@ Depois de formar o par, ele deve ser posicionado na **FRENTE** e encaixado, com 
 O mesmo processo vai ser feito para o par de trás, que é o <span style="color:blue">**Azul**</span> e <span style="color:orange">**Laranja**</span>:
 * O meio <span style="color:blue">**Azul**</span> e <span style="color:orange">**Laranja**</span> deve ser levado até a **Posição de Espera**
 
-||B'|M2|
+|Exemplo|B'|M2|
 |:-:|:-:|:-:|
 |<img src="fb/par2/0.png" alt="drawing" width="200"/>|<img src="fb/par2/1.png" alt="drawing" width="200"/>|<img src="fb/par2/2.png" alt="drawing" width="200"/>|
 * O canto <span style="color:blue">**Azul**</span>, <span style="color:orange">**Laranja**</span> e **Branco** deve ser colocado na camada de **CIMA** com o **Branco** para a **Direita** ou **Esquerda**.
 
-|||R|U'|
+|Exemplo||R|U'|
 |:-:|:-:|:-:|:-:|
 |<img src="fb/par2/3.png" alt="drawing" width="200"/>|<img src="fb/par2/4.png" alt="drawing" width="200"/>|<img src="fb/par2/5.png" alt="drawing" width="200"/>|<img src="fb/par2/6.png" alt="drawing" width="200"/>|
 * O par deve ser formado usando **M'** ou **M2**, posicionado e encaixado **ATRÁS**. 
 
-||M2||Rw|B'|
+|Exemplo|M2||Rw|B'|
 |:-:|:-:|:-:|:-:|:-:|
 |<img src="fb/par2/6.png" alt="drawing" width="200"/>|<img src="fb/par2/7.png" alt="drawing" width="200"/>|<img src="fb/par2/8.png" alt="drawing" width="200"/>|<img src="fb/par2/9.png" alt="drawing" width="200"/>|<img src="fb/par2/10.png" alt="drawing" width="200"/>|
 
-||B|
+|Exemplo|B|
 |:-:|:-:|
 |<img src="fb/par2/11.png" alt="drawing" width="200"/>|<img src="fb/fb3.png" alt="drawing" width="200"/>|
 
 ## Segundo Bloco
 
-A segunda etapa do Método Roux é o Segundo Bloco, do inglês Second Block, simplificado para **SB**. Ele é montado na **DIREITA** e consiste em 6 peças, sendo 1 centro, 3 meios e 2 cantos. Considerando a orientação escolhida, o segundo bloco será <span style="color:blue">**Azul**</span> com **Branco** embaixo. A seguir é mostrado o Primeiro Bloco. Algumas imagens dessa etapa terão o <span style="color:blue">**Azul**</span> na frente apenas para facilitar a visualização.
+A segunda etapa do Método Roux é o Segundo Bloco, do inglês Second Block, simplificado para **SB**. Ele é montado na **DIREITA** e consiste em 6 peças, sendo 1 centro, 3 meios e 2 cantos. Considerando a orientação escolhida, o segundo bloco será <span style="color:green">**Verde**</span> com **Branco** embaixo.
 
 |Segundo Bloco|
 |:-:|
-|<img src="fb/fb3.png" alt="drawing" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="fb/fb1.png" alt="drawing" width="200"/>|
+|<img src="sb/sb.png" alt="drawing" width="200"/>|
+
+As mesmas etapas do **FB** serão aplicadas aqui:
+* Encaixar o meio <span style="color:green">**Verde**</span> e **Branco**
+
+|Exemplo|R|U|M'|U|R2|
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|<img src="sb/edge/1.png" alt="drawing" width="200"/>|<img src="sb/edge/2.png" alt="drawing" width="200"/>|<img src="sb/edge/3.png" alt="drawing" width="200"/>|<img src="sb/edge/4.png" alt="drawing" width="200"/>|<img src="sb/edge/5.png" alt="drawing" width="200"/>|<img src="sb/edge/6.png" alt="drawing" width="200"/>|
+
+* Colocar o meio <span style="color:green">**Verde**</span> e <span style="color:red">**Vermelho**</span> na posição de espera
+
+
+|Exemplo|R|U|Rw'|
+|:-:|:-:|:-:|:-:|
+|<img src="sb/par1/1.png" alt="drawing" width="200"/>|<img src="sb/par1/2.png" alt="drawing" width="200"/>|<img src="sb/par1/3.png" alt="drawing" width="200"/>|<img src="sb/par1/4.png" alt="drawing" width="200"/>|
+
+
+* Colocar o canto <span style="color:green">**Verde**</span>, <span style="color:red">**Vermelho**</span> e **Branco** na camada de cima, com o **Branco** para a **DIREITA** ou **ESQUERDA**
+
+|Exemplo|R|U2|R'|
+|:-:|:-:|:-:|:-:|
+|<img src="sb/par1/5.png" alt="drawing" width="200"/>|<img src="sb/par1/6.png" alt="drawing" width="200"/>|<img src="sb/par1/7.png" alt="drawing" width="200"/>|<img src="sb/par1/8.png" alt="drawing" width="200"/>|
+* Formar o par e encaixar
+
+|Exemplo|M2|U2|Rw|U|R'|
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|<img src="sb/par1/8.png" alt="drawing" width="200"/>|<img src="sb/par1/9.png" alt="drawing" width="200"/>|<img src="sb/par1/10.png" alt="drawing" width="200"/>|<img src="sb/par1/11.png" alt="drawing" width="200"/>|<img src="sb/par1/12.png" alt="drawing" width="200"/>|<img src="sb/par1/13.png" alt="drawing" width="200"/>|
+
+|Exemplo|R|U'|R'|
+|:-:|:-:|:-:|:-:|
+|<img src="sb/par1/14.png" alt="drawing" width="200"/>|<img src="sb/par1/15.png" alt="drawing" width="200"/>|<img src="sb/par1/12.png" alt="drawing" width="200"/>|<img src="sb/par1/13.png" alt="drawing" width="200"/>|
+
+* Colocar o meio <span style="color:green">**Verde**</span> e <span style="color:orange">**Laranja**</span> na posição de espera
+
+|Exemplo|R'|U|R|M|
+|:-:|:-:|:-:|:-:|:-:|
+|<img src="sb/par2/1.png" alt="drawing" width="200"/>|<img src="sb/par2/2.png" alt="drawing" width="200"/>|<img src="sb/par2/3.png" alt="drawing" width="200"/>|<img src="sb/par2/4.png" alt="drawing" width="200"/>|<img src="sb/par2/5.png" alt="drawing" width="200"/>|
+
+* Colocar o canto <span style="color:green">**Verde**</span>, <span style="color:orange">**Laranja**</span> e **Branco** na camada de cima, com o **Branco** para a **DIREITA** ou **ESQUERDA**
+
+|Exemplo|U'|R'|U|R|
+|:-:|:-:|:-:|:-:|:-:|
+|<img src="sb/par2/6.png" alt="drawing" width="200"/>|<img src="sb/par2/7.png" alt="drawing" width="200"/>|<img src="sb/par2/8.png" alt="drawing" width="200"/>|<img src="sb/par2/9.png" alt="drawing" width="200"/>|<img src="sb/par2/10.png" alt="drawing" width="200"/>|
+
+* Formar o par e encaixar
+
+|Exemplo|M'|U2|Rw'|U'|R|
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|<img src="sb/par2/10.png" alt="drawing" width="200"/>|<img src="sb/par2/11.png" alt="drawing" width="200"/>|<img src="sb/par2/12.png" alt="drawing" width="200"/>|<img src="sb/par2/13.png" alt="drawing" width="200"/>|<img src="sb/par2/14.png" alt="drawing" width="200"/>|<img src="sb/par2/15.png" alt="drawing" width="200"/>|
+
+|Exemplo|M'|U2|R'|U|R|
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|<img src="sb/par2/16.png" alt="drawing" width="200"/>|<img src="sb/par2/17.png" alt="drawing" width="200"/>|<img src="sb/par2/18.png" alt="drawing" width="200"/>|<img src="sb/par2/19.png" alt="drawing" width="200"/>|<img src="sb/par2/20.png" alt="drawing" width="200"/>|<img src="sb/par2/15.png" alt="drawing" width="200"/>|
+
+## Orientação dos Cantos
+Nessa etapa os cantos da camada de **CIMA** terão o seu <span style="color:#9c9720">**Amarelo**</span> jogados para **CIMA**. Para isso será usada a fórmula **SUNE**, que foi comentada na seção de **Movimentos do Cubo**. Seu efeito no cubo é "torcer" o canto **DIREITO** e os de **TRÁS** no sentido **HORÁRIO**.
+
+## Permutação dos Cantos
+
+## Orientação dos Meios
+
+## Finalizar Lados Azul e Verde
+
+## Finalizar Camada M
+
 
 # Método Roux Completo
 ## Neutralidade de cor
