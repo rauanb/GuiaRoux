@@ -122,7 +122,7 @@ Após encaixar o meio <span style="color:blue">**Azul**</span> e **Branco** corr
 Lembrando que, ao posicionar o cubo, o centro <span style="color:green">**Verde**</span> ficará na sua **DIREITA**, pois ele é oposto ao <span style="color:blue">**Azul**</span>.
 
 Próximo passo é encontrar o meio (peça de duas cores) <span style="color:blue">**Azul**</span> e <span style="color:red">**Vermelho**</span> e levá-lo até a  **Posição de Espera**, que é a posição que está na **Frente** e **Embaixo**, como no exemplo.
- 
+
 |Exemplo|U'|M|
 |:-:|:-:|:-:|
 |<img src="fb/par1/1.png" alt="drawing" width="200"/>|<img src="fb/par1/2.png" alt="drawing" width="200"/>|<img src="fb/par1/3.png" alt="drawing" width="200"/>|
@@ -261,7 +261,31 @@ As mesmas etapas do **FB** serão aplicadas aqui:
 |<img src="sb/par2/16.png" alt="drawing" width="200"/>|<img src="sb/par2/17.png" alt="drawing" width="200"/>|<img src="sb/par2/18.png" alt="drawing" width="200"/>|<img src="sb/par2/19.png" alt="drawing" width="200"/>|<img src="sb/par2/20.png" alt="drawing" width="200"/>|<img src="sb/par2/15.png" alt="drawing" width="200"/>|
 
 ## Orientação dos Cantos
-Nessa etapa os cantos da camada de **CIMA** terão o seu <span style="color:#9c9720">**Amarelo**</span> jogados para **CIMA**. Para isso será usada a fórmula **SUNE**, que foi comentada na seção de **Movimentos do Cubo**. Seu efeito no cubo é "torcer" o canto **DIREITO** e os de **TRÁS** no sentido **HORÁRIO**.
+Nessa etapa os cantos da camada de **CIMA** terão o seu <span style="color:#9c9720">**Amarelo**</span> jogados para **CIMA**. Para isso será usada a fórmula **SUNE**, que foi comentada na seção de **Movimentos do Cubo**. Seu efeito no cubo é "torcer" o canto **DIREITO** da **FRENTE**  e os de **TRÁS** no sentido **HORÁRIO**.
+
+|                      Exemplo                      |                         R                         |                         U                         |                        R'                         |                         U                         |                         R                         |                        U2                         |                        R'                         |
+| :-----------------------------------------------: | :-----------------------------------------------: | :-----------------------------------------------: | :-----------------------------------------------: | :-----------------------------------------------: | :-----------------------------------------------: | :-----------------------------------------------: | :-----------------------------------------------: |
+| <img src="Sune/1.png" alt="drawing" width="200"/> | <img src="Sune/2.png" alt="drawing" width="200"/> | <img src="Sune/3.png" alt="drawing" width="200"/> | <img src="Sune/4.png" alt="drawing" width="200"/> | <img src="Sune/5.png" alt="drawing" width="200"/> | <img src="Sune/6.png" alt="drawing" width="200"/> | <img src="Sune/7.png" alt="drawing" width="200"/> | <img src="Sune/8.png" alt="drawing" width="200"/> |
+
+Sabendo disso, é necessário escolher qual posição da camada de **CIMA** o **SUNE** vai ser aplicado. Basta seguir as regras:
+
+1. Se houver somente 1 <span style="color:#9c9720">**Amarelo**</span> para **CIMA**, deixe ele na **ESQUERDA** na **FRENTE** e faça o **SUNE**.
+
+2. Se não, verifique se ao "torcer", no sentido horário, o canto da **DIREITA** na **FRENTE** e os de **TRÁS**, ficará somente 1 amarelo para **CIMA**.
+
+   2A. Se sim, faça o **SUNE** nessa posição, o resultado vai ser o caso **1** acima.
+
+   2B. Se não, faça o movimento **U** e verifique novamente o caso **2** acima.
+
+Seguindo as regras acima, o número máximo de vezes que será preciso fazer o **SUNE** é 3.
+
+Abaixo são mostradas as 7 orientações possíveis, juntamente com a sua posição correta para se aplicar o **SUNE**.
+
+|                      Caso U                       |                      Caso Pi                       |                       Caso H                       |                       Caso T                       |                      Caso AS                       |                       Caso S                       |                       Caso L                       |
+| :-----------------------------------------------: | :------------------------------------------------: | :------------------------------------------------: | :------------------------------------------------: | :------------------------------------------------: | :------------------------------------------------: | :------------------------------------------------: |
+| <img src="Sune/9.png" alt="drawing" width="200"/> | <img src="Sune/10.png" alt="drawing" width="200"/> | <img src="Sune/11.png" alt="drawing" width="200"/> | <img src="Sune/12.png" alt="drawing" width="200"/> | <img src="Sune/13.png" alt="drawing" width="200"/> | <img src="Sune/14.png" alt="drawing" width="200"/> | <img src="Sune/15.png" alt="drawing" width="200"/> |
+
+
 
 ## Permutação dos Cantos
 
@@ -283,4 +307,4 @@ Nessa etapa os cantos da camada de **CIMA** terão o seu <span style="color:#9c9
 ## EOLR
 ## 
 ## UFUB
-## Pinkie Pie
+## Pinkie Pie       
