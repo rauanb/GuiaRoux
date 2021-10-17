@@ -260,10 +260,11 @@ As mesmas etapas do **FB** serão aplicadas aqui:
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |<img src="sb/par2/16.png" alt="drawing" width="200"/>|<img src="sb/par2/17.png" alt="drawing" width="200"/>|<img src="sb/par2/18.png" alt="drawing" width="200"/>|<img src="sb/par2/19.png" alt="drawing" width="200"/>|<img src="sb/par2/20.png" alt="drawing" width="200"/>|<img src="sb/par2/15.png" alt="drawing" width="200"/>|
 
-## Orientação dos Cantos
+## Orientação dos Cantos (CMLL 1/2)
+
 Nessa etapa os cantos da camada de **CIMA** terão o seu <span style="color:#9c9720">**Amarelo**</span> jogados para **CIMA**. Para isso será usada a fórmula **SUNE**, que foi comentada na seção de **Movimentos do Cubo**. Seu efeito no cubo é "torcer" o canto **DIREITO** da **FRENTE**  e os de **TRÁS** no sentido **HORÁRIO**.
 
-|                      Exemplo                      |                         R                         |                         U                         |                        R'                         |                         U                         |                         R                         |                        U2                         |                        R'                         |
+|                       Sune                        |                         R                         |                         U                         |                        R'                         |                         U                         |                         R                         |                        U2                         |                        R'                         |
 | :-----------------------------------------------: | :-----------------------------------------------: | :-----------------------------------------------: | :-----------------------------------------------: | :-----------------------------------------------: | :-----------------------------------------------: | :-----------------------------------------------: | :-----------------------------------------------: |
 | <img src="Sune/1.png" alt="drawing" width="200"/> | <img src="Sune/2.png" alt="drawing" width="200"/> | <img src="Sune/3.png" alt="drawing" width="200"/> | <img src="Sune/4.png" alt="drawing" width="200"/> | <img src="Sune/5.png" alt="drawing" width="200"/> | <img src="Sune/6.png" alt="drawing" width="200"/> | <img src="Sune/7.png" alt="drawing" width="200"/> | <img src="Sune/8.png" alt="drawing" width="200"/> |
 
@@ -287,9 +288,32 @@ Abaixo são mostradas as 7 orientações possíveis, juntamente com a sua posiç
 
 
 
-## Permutação dos Cantos
+## Permutação dos Cantos (CMLL 2/2)
+
+Nesse etapa os cantos da camada de **CIMA** serão finalizados, formando todos os pares nas laterais. Abaixo são mostrados os possíveis casos: nenhum par, um par ( <span style="color:orange">**Laranja**</span> no exemplo) e o objetivo dessa etapa.
+
+
+
+|                   Nenhum Par                   |                     Um Par                     |                    Objetivo                    |
+| :--------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: |
+| <img src="J/1.png" alt="drawing" width="200"/> | <img src="J/2.png" alt="drawing" width="200"/> | <img src="J/3.png" alt="drawing" width="200"/> |
+
+Para isso será usada a fórmula **J**, e seu efeito no cubo é trocar os cantos da **DIREITA** entre si. Sabendo disso, é necessário escolher qual posição da camada de **CIMA** o **J** vai ser aplicado. Basta seguir as regras:
+
+1. Se houver um par, independentemente da cor, posicioná-lo na **ESQUERDA** e fazer o **J**
+2. Se não, fazer o **J**, irá resultar em um par (caso **1** acima)
+
+|                       J                        |                       R                        |                       U                        |                       R'                       |                       F'                       |                       R                        |                        U                        |
+| :--------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: | :---------------------------------------------: |
+| <img src="J/4.png" alt="drawing" width="200"/> | <img src="J/5.png" alt="drawing" width="200"/> | <img src="J/6.png" alt="drawing" width="200"/> | <img src="J/7.png" alt="drawing" width="200"/> | <img src="J/8.png" alt="drawing" width="200"/> | <img src="J/9.png" alt="drawing" width="200"/> | <img src="J/10.png" alt="drawing" width="200"/> |
+
+|                       R'                        |                       U'                        |                       R'                        |                        F                        |                       R2                        |                       U'                        |                       R'                        |
+| :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: |
+| <img src="J/11.png" alt="drawing" width="200"/> | <img src="J/12.png" alt="drawing" width="200"/> | <img src="J/13.png" alt="drawing" width="200"/> | <img src="J/14.png" alt="drawing" width="200"/> | <img src="J/15.png" alt="drawing" width="200"/> | <img src="J/16.png" alt="drawing" width="200"/> | <img src="J/17.png" alt="drawing" width="200"/> |
 
 ## Orientação dos Meios
+
+Agora começa a etapa chamada **Last Six Edges**, abreviada para **LSE**. Nessa etapa, o centro **Branco** ou <span style="color:#9c9720">**Amarelo**</span> deve ser posicionado na face de cima, fazendo **M** ou **M'**. 
 
 ## Finalizar Lados Azul e Verde
 
