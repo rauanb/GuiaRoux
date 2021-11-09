@@ -4,7 +4,7 @@ As cores encontradas no Cubo Mágico seguem as seguintes regras:
 * **Branco** oposto ao <span style="color:#9c9720">**Amarelo**</span>
 * <span style="color:red">**Vermelho**</span> oposto ao <span style="color:orange">**Laranja**</span> (cores quentes)
 * <span style="color:blue">**Azul**</span> oposto ao <span style="color:green">**Verde**</span> (cores frias)
-* Com <span style="color:red">**Vermelho**</span> na frente e <span style="color:#9c9720">**Amarelo**</span> em cima, à direita se tem o <span style="color:green">**Verde**</span>
+* Com <span style="color:red">**Vermelho**</span> na frente e <span style="color:#9c9720">**Amarelo**</span> em cima, a direita se tem o <span style="color:green">**Verde**</span>
   
 |Esquema de Cores|
 |:--:|
@@ -29,31 +29,31 @@ O cubo é formado por 3 tipos de peças, são elas:
 <img src="pecas/cantos.png" alt="drawing" width="200"/>
 
 ## Como Resolver
-Ao contrário do senso comum, não existe somente uma forma para se resolver o Cubo Mágico. Existem alguns métodos, e nesse material será explicado o método **Roux**
+Ao contrário do senso comum, não existe somente uma forma para se resolver o Cubo Mágico. Existem alguns métodos, e nesse material será explicado o método **Roux**.
 
 ## Movimentos do Cubo
 Para aprender qualquer método é necessário saber movimentar as peças do Cubo. Abaixo são mostrados os movimentos, considerando o **Cubo resolvido**, com  a face <span style="color:red">**Vermelha**</span> na frente e a <span style="color:#9c9720">**Amarela**</span> em cima.
 
 
-|Horário|Duplo|Anti-horário|Amplo Horário|Amplo Duplo|Amplo Anti-horário
+|Horário|Duplo|Anti-horário|Amplo Horário|Amplo Duplo|Amplo Anti-horário|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|B|B2|B'|Bw|Bw2|Bw' 
-|<img src="moves/B/B.png" alt="drawing" width="100"/>|<img src="moves/B/B2.png" alt="drawing" width="100"/>|<img src="moves/B/Blinha.png" alt="drawing" width="100"/>|<img src="moves/B/b.png" alt="drawing" width="100"/>|<img src="moves/B/b2.png" alt="drawing" width="100"/>|<img src="moves/B/blinha.png" alt="drawing" width="90"/>
+|B|B2|B'|Bw|Bw2|Bw' |
+|<img src="moves/B/B.png" alt="drawing" width="100"/>|<img src="moves/B/B2.png" alt="drawing" width="100"/>|<img src="moves/B/Blinha.png" alt="drawing" width="100"/>|<img src="moves/B/b.png" alt="drawing" width="100"/>|<img src="moves/B/b2.png" alt="drawing" width="100"/>|<img src="moves/B/blinha.png" alt="drawing" width="100"/>|
 |||||||
-|D|D2|D'|Dw|Dw2|Dw' 
-|<img src="moves/D/D.png" alt="drawing" width="100"/>|<img src="moves/D/D2.png" alt="drawing" width="100"/>|<img src="moves/D/Dlinha.png" alt="drawing" width="100"/>|<img src="moves/D/d.png" alt="drawing" width="100"/>|<img src="moves/D/d2.png" alt="drawing" width="100"/>|<img src="moves/D/dlinha.png" alt="drawing" width="90"/>
+|D|D2|D'|Dw|Dw2|Dw' |
+|<img src="moves/D/D.png" alt="drawing" width="100"/>|<img src="moves/D/D2.png" alt="drawing" width="100"/>|<img src="moves/D/Dlinha.png" alt="drawing" width="100"/>|<img src="moves/D/d.png" alt="drawing" width="100"/>|<img src="moves/D/d2.png" alt="drawing" width="100"/>|<img src="moves/D/dlinha.png" alt="drawing" width="100"/>|
 |||||||
-|F|F2|F'|Fw|Fw2|Fw' 
-|<img src="moves/F/F.png" alt="drawing" width="100"/>|<img src="moves/F/F2.png" alt="drawing" width="100"/>|<img src="moves/F/Flinha.png" alt="drawing" width="100"/>|<img src="moves/F/f.png" alt="drawing" width="100"/>|<img src="moves/F/f2.png" alt="drawing" width="100"/>|<img src="moves/F/flinha.png" alt="drawing" width="90"/>
+|F|F2|F'|Fw|Fw2|Fw' |
+|<img src="moves/F/F.png" alt="drawing" width="100"/>|<img src="moves/F/F2.png" alt="drawing" width="100"/>|<img src="moves/F/Flinha.png" alt="drawing" width="100"/>|<img src="moves/F/f.png" alt="drawing" width="100"/>|<img src="moves/F/f2.png" alt="drawing" width="100"/>|<img src="moves/F/flinha.png" alt="drawing" width="100"/>|
 |||||||
-|L|L2|L'|Lw|Lw2|Lw' 
-|<img src="moves/L/L.png" alt="drawing" width="100"/>|<img src="moves/L/L2.png" alt="drawing" width="100"/>|<img src="moves/L/Llinha.png" alt="drawing" width="100"/>|<img src="moves/L/l.png" alt="drawing" width="100"/>|<img src="moves/L/l2.png" alt="drawing" width="100"/>|<img src="moves/L/llinha.png" alt="drawing" width="90"/>
+|L|L2|L'|Lw|Lw2|Lw' |
+|<img src="moves/L/L.png" alt="drawing" width="100"/>|<img src="moves/L/L2.png" alt="drawing" width="100"/>|<img src="moves/L/Llinha.png" alt="drawing" width="100"/>|<img src="moves/L/l.png" alt="drawing" width="100"/>|<img src="moves/L/l2.png" alt="drawing" width="100"/>|<img src="moves/L/llinha.png" alt="drawing" width="100"/>|
 |||||||
-|R|R2|R'|Rw|Rw2|Rw' 
-|<img src="moves/R/R.png" alt="drawing" width="100"/>|<img src="moves/R/R2.png" alt="drawing" width="100"/>|<img src="moves/R/Rlinha.png" alt="drawing" width="100"/>|<img src="moves/R/r.png" alt="drawing" width="100"/>|<img src="moves/R/r2.png" alt="drawing" width="100"/>|<img src="moves/R/rlinha.png" alt="drawing" width="90"/>
+|R|R2|R'|Rw|Rw2|Rw' |
+|<img src="moves/R/R.png" alt="drawing" width="100"/>|<img src="moves/R/R2.png" alt="drawing" width="100"/>|<img src="moves/R/Rlinha.png" alt="drawing" width="100"/>|<img src="moves/R/r.png" alt="drawing" width="100"/>|<img src="moves/R/r2.png" alt="drawing" width="100"/>|<img src="moves/R/rlinha.png" alt="drawing" width="100"/>|
 |||||||
-|U|U2|U'|Uw|Uw2|Uw' 
-|<img src="moves/U/U.png" alt="drawing" width="100"/>|<img src="moves/U/U2.png" alt="drawing" width="100"/>|<img src="moves/U/Ulinha.png" alt="drawing" width="100"/>|<img src="moves/U/u.png" alt="drawing" width="100"/>|<img src="moves/U/u2.png" alt="drawing" width="100"/>|<img src="moves/U/ulinha.png" alt="drawing" width="90"/>
+|U|U2|U'|Uw|Uw2|Uw' |
+|<img src="moves/U/U.png" alt="drawing" width="100"/>|<img src="moves/U/U2.png" alt="drawing" width="100"/>|<img src="moves/U/Ulinha.png" alt="drawing" width="100"/>|<img src="moves/U/u.png" alt="drawing" width="100"/>|<img src="moves/U/u2.png" alt="drawing" width="100"/>|<img src="moves/U/ulinha.png" alt="drawing" width="100"/>|
 
 |Horário|Duplo|Anti-horário|
 |:-:|:-:|:-:|
@@ -100,7 +100,9 @@ A primeira etapa do Método Roux é o Primeiro Bloco, do inglês First Block, si
 
 Há muitas maneiras para se montar o Primeiro Bloco. A técnica utilizada aqui é focada na simplicidade e facilidade para iniciantes. Para técnicas mais avançadas, consulte a seção **Primeiro Bloco** do capítulo **Método Roux Completo**.
 
-Inicialmente deve-se encontrar o meio (peça de duas cores) <span style="color:blue">**Azul**</span> e **Branco** e encaixar o seu <span style="color:blue">**Azul**</span> ao centro <span style="color:blue">**Azul**</span>. Algumas vezes será necessário apenas um movimento, como no exemplo abaixo.
+Inicialmente deve-se encontrar o meio (peça de duas cores) <span style="color:blue">**Azul**</span> e **Branco** e encaixar o seu <span style="color:blue">**Azul**</span> ao centro <span style="color:blue">**Azul**</span>.
+
+**Algumas vezes será necessário apenas um movimento, como no exemplo abaixo.**
 
 |Exemplo|F'|
 |:-:|:-:|
@@ -119,7 +121,7 @@ Após encaixar o meio <span style="color:blue">**Azul**</span> e **Branco** corr
 
 **MOVIMENTOS PROIBIDOS:** As camadas **D** e **L** não podem mais ser mexidas.
 
-Lembrando que, ao posicionar o cubo, o centro <span style="color:green">**Verde**</span> ficará na sua **DIREITA**, pois ele é oposto ao <span style="color:blue">**Azul**</span>.
+Lembrando que, ao posicionar o cubo, o centro <span style="color:green">**Verde**</span> ficará na **DIREITA**, pois ele é oposto ao <span style="color:blue">**Azul**</span>.
 
 Próximo passo é encontrar o meio (peça de duas cores) <span style="color:blue">**Azul**</span> e <span style="color:red">**Vermelho**</span> e levá-lo até a  **Posição de Espera**, que é a posição que está na **Frente** e **Embaixo**, como no exemplo.
 
@@ -142,9 +144,9 @@ Abaixo é mostrado um caso que precisa de atenção, pois o canto está na posi�
 |<img src="fb/par1/16.png" alt="drawing" width="200"/>|<img src="fb/par1/17.png" alt="drawing" width="200"/>|<img src="fb/par1/18.png" alt="drawing" width="200"/>|<img src="fb/par1/19.png" alt="drawing" width="200"/>|
 
 Se o **Branco** estiver para cima:
-* Leve o canto para a posição na **DIREITA ATRÁS** girando a camada de cima
-* Gire a direita no sentido anti-horário
-* Gire a camada de cima no sentido horário
+* Levar o canto para a posição na **DIREITA ATRÁS** girando a camada de **CIMA**
+* Girar a direita no sentido anti-horário
+* Girar a camada de cima no sentido horário
 
 
 
@@ -152,15 +154,15 @@ Se o **Branco** estiver para cima:
 |:-:|:-:|:-:|:-:|
 |<img src="fb/par1/6.png" alt="drawing" width="200"/>|<img src="fb/par1/7.png" alt="drawing" width="200"/>|<img src="fb/par1/8.png" alt="drawing" width="200"/>|<img src="fb/par1/9.png" alt="drawing" width="200"/>|<img src="fb/par1/9.png" alt="drawing" width="200"/>|
 
-O passo seguinte é formar o par, levando o meio que está na **posição de espera** até o canto, girando a camada M.
+O passo seguinte é formar o par, levando o meio que está na **posição de espera** até o canto, girando a camada **M**.
 
 |Exemplo|M'||
 |:-:|:-:|:-:|
 |<img src="fb/par1/9.png" alt="drawing" width="200"/>|<img src="fb/par1/10.png" alt="drawing" width="200"/>|<img src="fb/par1/20.png" alt="drawing" width="200"/>|
 
-Caso o par fique com as cores trocadas, você deve:
+Caso o par fique com as cores trocadas:
 * Voltar o meio para a posição de espera
-* Girar a camada de cima 2 vezes
+* Girar a camada de **CIMA** 2 vezes
 * Formar o par novamente na nova posição
 
 |Exemplo|M|U2|M2|
@@ -223,12 +225,12 @@ As mesmas etapas do **FB** serão aplicadas aqui:
 |<img src="sb/par1/1.png" alt="drawing" width="200"/>|<img src="sb/par1/2.png" alt="drawing" width="200"/>|<img src="sb/par1/3.png" alt="drawing" width="200"/>|<img src="sb/par1/4.png" alt="drawing" width="200"/>|
 
 
-* Colocar o canto <span style="color:green">**Verde**</span>, <span style="color:red">**Vermelho**</span> e **Branco** na camada de cima, com o **Branco** para a **DIREITA** ou **ESQUERDA**
+* Colocar o canto <span style="color:green">**Verde**</span>, <span style="color:red">**Vermelho**</span> e **Branco** na camada de cima, com o **Branco** para a **DIREITA** ou **ESQUERDA**. Atenção para voltar o meio <span style="color:green">**Verde**</span> e <span style="color:red">**Vermelho**</span> para **BAIXO**.
 
 |Exemplo|R|U2|R'|
 |:-:|:-:|:-:|:-:|
 |<img src="sb/par1/5.png" alt="drawing" width="200"/>|<img src="sb/par1/6.png" alt="drawing" width="200"/>|<img src="sb/par1/7.png" alt="drawing" width="200"/>|<img src="sb/par1/8.png" alt="drawing" width="200"/>|
-* Formar o par e encaixar
+* Formar o par e encaixar com uma das formas a seguir.
 
 |Exemplo|M2|U2|Rw|U|R'|
 |:-:|:-:|:-:|:-:|:-:|:-:|
@@ -244,13 +246,13 @@ As mesmas etapas do **FB** serão aplicadas aqui:
 |:-:|:-:|:-:|:-:|:-:|
 |<img src="sb/par2/1.png" alt="drawing" width="200"/>|<img src="sb/par2/2.png" alt="drawing" width="200"/>|<img src="sb/par2/3.png" alt="drawing" width="200"/>|<img src="sb/par2/4.png" alt="drawing" width="200"/>|<img src="sb/par2/5.png" alt="drawing" width="200"/>|
 
-* Colocar o canto <span style="color:green">**Verde**</span>, <span style="color:orange">**Laranja**</span> e **Branco** na camada de cima, com o **Branco** para a **DIREITA** ou **ESQUERDA**
+* Colocar o canto <span style="color:green">**Verde**</span>, <span style="color:orange">**Laranja**</span> e **Branco** na camada de cima, com o **Branco** para a **DIREITA** ou **ESQUERDA**. Atenção para voltar o meio <span style="color:green">**Verde**</span> e <span style="color:red">**Vermelho**</span> para **BAIXO**.
 
 |Exemplo|U'|R'|U|R|
 |:-:|:-:|:-:|:-:|:-:|
 |<img src="sb/par2/6.png" alt="drawing" width="200"/>|<img src="sb/par2/7.png" alt="drawing" width="200"/>|<img src="sb/par2/8.png" alt="drawing" width="200"/>|<img src="sb/par2/9.png" alt="drawing" width="200"/>|<img src="sb/par2/10.png" alt="drawing" width="200"/>|
 
-* Formar o par e encaixar
+* Formar o par e encaixar usando uma das formas a seguir.
 
 |Exemplo|M'|U2|Rw'|U'|R|
 |:-:|:-:|:-:|:-:|:-:|:-:|
@@ -262,7 +264,7 @@ As mesmas etapas do **FB** serão aplicadas aqui:
 
 ## Orientação dos Cantos (CMLL 1/2)
 
-Nessa etapa os cantos da camada de **CIMA** terão o seu <span style="color:#9c9720">**Amarelo**</span> jogados para **CIMA**. Para isso será usada a fórmula **SUNE**, que foi comentada na seção de **Movimentos do Cubo**. Seu efeito no cubo é "torcer" o canto **DIREITO** da **FRENTE**  e os de **TRÁS** no sentido **HORÁRIO**.
+Nessa etapa os cantos da camada de **CIMA** terão o seu <span style="color:#9c9720">**Amarelo**</span> jogado para **CIMA**. Para isso será usada a fórmula **SUNE**, que foi comentada na seção de **Movimentos do Cubo**. Seu efeito no cubo é "torcer" o canto **DIREITO** da **FRENTE**  e os de **TRÁS** no sentido **HORÁRIO**.
 
 |                       Sune                        |                         R                         |                         U                         |                        R'                         |                         U                         |                         R                         |                        U2                         |                        R'                         |
 | :-----------------------------------------------: | :-----------------------------------------------: | :-----------------------------------------------: | :-----------------------------------------------: | :-----------------------------------------------: | :-----------------------------------------------: | :-----------------------------------------------: | :-----------------------------------------------: |
@@ -270,13 +272,13 @@ Nessa etapa os cantos da camada de **CIMA** terão o seu <span style="color:#9c9
 
 Sabendo disso, é necessário escolher qual posição da camada de **CIMA** o **SUNE** vai ser aplicado. Basta seguir as regras:
 
-1. Se houver somente 1 <span style="color:#9c9720">**Amarelo**</span> para **CIMA**, deixe ele na **ESQUERDA** na **FRENTE** e faça o **SUNE**.
+1. Se houver somente 1 <span style="color:#9c9720">**Amarelo**</span> para **CIMA**, levá-lo até a **ESQUERDA** na **FRENTE** e fazer o **SUNE**.
 
-2. Se não, verifique se ao "torcer", no sentido horário, o canto da **DIREITA** na **FRENTE** e os de **TRÁS**, ficará somente 1 amarelo para **CIMA**.
+2. Se não, verificar se ao "torcer", no sentido horário, o canto da **DIREITA** na **FRENTE** e os de **TRÁS**, ficará somente 1 amarelo para **CIMA**.
 
-   2A. Se sim, faça o **SUNE** nessa posição, o resultado vai ser o caso **1** acima.
+   2A. Se sim, fazer o **SUNE** nessa posição, o resultado vai ser o caso **1** acima.
 
-   2B. Se não, faça o movimento **U** e verifique novamente o caso **2** acima.
+   2B. Se não, façzero movimento **U** e verificar novamente o caso **2** acima.
 
 Seguindo as regras acima, o número máximo de vezes que será preciso fazer o **SUNE** é 3.
 
@@ -290,7 +292,7 @@ Abaixo são mostradas as 7 orientações possíveis, juntamente com a sua posiç
 
 ## Permutação dos Cantos (CMLL 2/2)
 
-Nesse etapa os cantos da camada de **CIMA** serão finalizados, formando todos os pares nas laterais. Abaixo são mostrados os possíveis casos: nenhum par, um par ( <span style="color:orange">**Laranja**</span> no exemplo) e o objetivo dessa etapa.
+Nesse etapa os cantos da camada de **CIMA** serão finalizados, formando todos os pares nas laterais. Abaixo são mostrados os possíveis casos: nenhum par, um par ( <span style="color:orange">**Laranja**</span> no exemplo) e o objetivo dessa etapa, todos os pares.
 
 
 
@@ -311,24 +313,150 @@ Para isso será usada a fórmula **J**, e seu efeito no cubo é trocar os cantos
 | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: |
 | <img src="J/11.png" alt="drawing" width="200"/> | <img src="J/12.png" alt="drawing" width="200"/> | <img src="J/13.png" alt="drawing" width="200"/> | <img src="J/14.png" alt="drawing" width="200"/> | <img src="J/15.png" alt="drawing" width="200"/> | <img src="J/16.png" alt="drawing" width="200"/> | <img src="J/17.png" alt="drawing" width="200"/> |
 
-## Orientação dos Meios
+## Orientação dos Meios (4a)
 
-Agora começa a etapa chamada **Last Six Edges**, abreviada para **LSE**. Nessa etapa, o centro **Branco** ou <span style="color:#9c9720">**Amarelo**</span> deve ser posicionado na face de cima, fazendo **M** ou **M'**. 
+Agora começa a etapa chamada **Last Six Edges**, abreviada para **LSE**, que significa **Últimos 6 Meios** e é dividida em 3 fases. Nessa primeira fase, chamada de **Edge Orientation** ou simplesmente **EO**, o centro **Branco** ou <span style="color:#9c9720">**Amarelo**</span> deve ser posicionado na face de cima, fazendo **M** ou **M'**. Abaixo é mostrado o cubo com o centro **Branco** em cima, com destaque para os 6 meios (em **Preto**).
 
-## Finalizar Lados Azul e Verde
+|                 4 Meios em CIMA                 |                 2 Meios EMBAIXO                 |
+| :---------------------------------------------: | :---------------------------------------------: |
+| <img src="4a/1.png" alt="drawing" width="200"/> | <img src="4a/2.png" alt="drawing" width="200"/> |
 
-## Finalizar Camada M
+Os meios desorientados são aqueles que **NÃO** têm o **Branco** ou <span style="color:#9c9720">**Amarelo**</span> voltados para **CIMA** ou para **BAIXO**, e eles serão sempre em número **PAR**. Para orientá-los, serão usadas duas fómulas: a **SETA** e a **TROCA**.
+
+A **SETA** tem esse nome pois as 3 peças de cima podem ser vistas como uma seta, apontando para um dos lados. Para resolvê-la, a "seta" deve apontar para a peça que está desorientada **EMBAIXO**. Essa peça de **BAIXO** pode estar na  **FRENTE** ou **ATRÁS**. No exemplo a seguir, a seta está apontando para a **DIREITA**, mas como a peça desorientada de **BAIXO** está na **FRENTE**,  camada de **CIMA** deve ser girada de forma a seta "apontar" para a **FRENTE**.
+
+|                         Seta                         |                          U                           |
+| :--------------------------------------------------: | :--------------------------------------------------: |
+| <img src="4a/25seta.png" alt="drawing" width="200"/> | <img src="4a/26seta.png" alt="drawing" width="200"/> |
+
+A **SETA** muda a orientação de 4 meios, os dois da **FRENTE** e os **LATERAIS**. Abaixo é mostrado o caso com 3 meios desorientados em **CIMA** e 1 **EMBAIXO** (3-1), bem como a fórmula da **SETA** para resolvê-lo, orientando todos os meios.
+
+|                  Seta (Frente)                  |                       M'                        |                        U                        |                       M'                        |                                                 |
+| :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | ----------------------------------------------- |
+| <img src="4a/3.png" alt="drawing" width="200"/> | <img src="4a/4.png" alt="drawing" width="200"/> | <img src="4a/5.png" alt="drawing" width="200"/> | <img src="4a/6.png" alt="drawing" width="200"/> | <img src="4a/7.png" alt="drawing" width="200"/> |
+
+Detalhe que esse caso (3-1) pode se apresentar também atrás, ou seja, o meio desorientado da camada de **BAIXO** está **ATRÁS**.  Para resolvê-lo o primeiro movimento deve ser **M**, como mostrado abaixo.
+
+|                   Seta (Trás)                    |                        M                         |                        U                         |                        M'                        |
+| :----------------------------------------------: | :----------------------------------------------: | :----------------------------------------------: | :----------------------------------------------: |
+| <img src="4a/12.png" alt="drawing" width="200"/> | <img src="4a/13.png" alt="drawing" width="200"/> | <img src="4a/14.png" alt="drawing" width="200"/> | <img src="4a/15.png" alt="drawing" width="200"/> |
+
+A **TROCA** não muda a orientação de nenhuma peça, mas sim troca os 2 meios da **FRENTE** entre si. Abaixo é mostrado o caso de 2 meios desorientados em **CIMA** e 2 **EMBAIXO** (2-2), bem como a fórmula da **TROCA** para transformá-lo no caso 3-1.
+
+|                      Troca                      |                       M'                        |                        U2                        |                        M                         |
+| :---------------------------------------------: | :---------------------------------------------: | :----------------------------------------------: | :----------------------------------------------: |
+| <img src="4a/8.png" alt="drawing" width="200"/> | <img src="4a/9.png" alt="drawing" width="200"/> | <img src="4a/10.png" alt="drawing" width="200"/> | <img src="4a/11.png" alt="drawing" width="200"/> |
+
+Para resolver qualquer caso, basta seguir as regras:
+
+1. Deixar somente **4** peças desorientadas usando a **SETA**
+2. Usar a **TROCA** para deixar somente **1** das peças desorientadas **EMBAIXO**
+3. Usar a **SETA** para orientar tudo
+
+Abaixo são mostrados os casos possíveis de **EO** e como resolvê-los.
+
+|  Nome  |                       Caso                       |                      Solução                       |
+| :----: | :----------------------------------------------: | :------------------------------------------------: |
+| (3-1)  | <img src="4a/16.png" alt="drawing" width="100"/> |                      **SETA**                      |
+| (4-0)  | <img src="4a/17.png" alt="drawing" width="100"/> |              **TROCA ~> U2 ~> SETA**               |
+| (2a-0) | <img src="4a/18.png" alt="drawing" width="100"/> |               **SETA ~> U2 ~> SETA**               |
+| (2o-0) | <img src="4a/19.png" alt="drawing" width="100"/> |       **SETA ~> TROCA ~> U' ~> SETA ATRÁS**        |
+| (2a-2) | <img src="4a/20.png" alt="drawing" width="100"/> |               **SETA ~> U ~> SETA**                |
+| (2o-2) | <img src="4a/21.png" alt="drawing" width="100"/> |           **TROCA ~> U2 ~> SETA ATRÁS**            |
+| (0-2)  | <img src="4a/22.png" alt="drawing" width="100"/> |            **SETA ~> U' ~> SETA ATRÁS**            |
+| (1-1)  | <img src="4a/23.png" alt="drawing" width="100"/> |            **SETA ~> U ~> SETA ATRÁS**             |
+| (4-2)  | <img src="4a/24.png" alt="drawing" width="100"/> | **SETA ~> U2 ~> SETA ~> TROCA ~> U ~> SETA ATRÁS** |
 
 
-# Método Roux Completo
-## Neutralidade de cor
-## Primeiro Bloco
-### Meio + Pares
-### Meia Linha + Par
-### Linhas
 
-# Tópicos Avançados
-## EOLR
-## 
-## UFUB
-## Pinkie Pie       
+## Finalizar Lados Azul e Verde (4b)
+
+Nessa etapa os meios <span style="color:green">**Verde**</span> e <span style="color:#9c9720">**Amarelo**</span> e <span style="color:blue">**Azul**</span> e <span style="color:#9c9720">**Amarelo**</span> serão resolvidos. Para isso, eles devem ser colocados **OPOSTOS** na camada de **BAIXO**. Abaixo é mostrado o caso em que a <span style="color:green">**Verde**</span> e <span style="color:#9c9720">**Amarelo**</span> e <span style="color:blue">**Azul**</span> e <span style="color:#9c9720">**Amarelo**</span> estão na camada de **CIMA** **ADJACENTES**, ou seja, uma ao lado da outra. Nesse caso, uma delas será colocada **EMBAIXO** com **M2**, e a outra com a **TROCA** na **FRENTE**.
+
+|                     Exemplo                     |                       M2                        |                        U                        |                       M'                        |                       U2                        |                        M                        |
+| :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: |
+| <img src="4b/1.png" alt="drawing" width="200"/> | <img src="4b/2.png" alt="drawing" width="200"/> | <img src="4b/3.png" alt="drawing" width="200"/> | <img src="4b/4.png" alt="drawing" width="200"/> | <img src="4b/5.png" alt="drawing" width="200"/> | <img src="4b/6.png" alt="drawing" width="200"/> |
+
+Também é possível que elas estejam **OPOSTAS** na camada de **CIMA**. Nesse caso, basta fazer **M2** para coloca-las na camada de **BAIXO**.
+
+Agora basta seguir:
+
+* observar a peça que está na **FRENTE**
+
+* trazer o par **OPOSTO** na **FRENTE ** girando a camada de **CIMA** 
+
+* fazer **M2** para encaixá-las
+
+* girar a camada de **CIMA** para finalizar os lados <span style="color:green">**Verde** </span> e <span style="color:blue">**Azul** </span>
+
+   
+
+  No exemplo abaixo, a peça <span style="color:blue">**Azul**</span> e <span style="color:#9c9720">**Amarelo**</span> está na **FRENTE**, então o par <span style="color:green">**Verde**</span> deve ser posicionado na **FRENTE**.
+
+|                     Exemplo                     |                       U2                        |                       M2                        |                       U'                        |
+| :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: |
+| <img src="4b/6.png" alt="drawing" width="200"/> | <img src="4b/7.png" alt="drawing" width="200"/> | <img src="4b/8.png" alt="drawing" width="200"/> | <img src="4b/9.png" alt="drawing" width="200"/> |
+
+Neste outro, a peça <span style="color:green">**Verde**</span> e <span style="color:#9c9720">**Amarelo**</span> está na **FRENTE**. 
+
+|                     Exemplo                      |                        U'                        |                        M2                        |                        U                         |
+| :----------------------------------------------: | :----------------------------------------------: | :----------------------------------------------: | :----------------------------------------------: |
+| <img src="4b/11.png" alt="drawing" width="200"/> | <img src="4b/12.png" alt="drawing" width="200"/> | <img src="4b/13.png" alt="drawing" width="200"/> | <img src="4b/14.png" alt="drawing" width="200"/> |
+
+## Finalizar Camada M (4c)
+
+Agora só falta a camada **M** para ser resolvida, isto é, 4 peças. Esta etapa se resume sempre em 2 **TROCAS**.  A maior parte dos casos é um **3-cycle**, ou seja, um **Ciclo de 3 peças**. No exemplo abaixo são mostradas a 4 peças da camada **M**.
+
+|                     Exemplo                     |                       M'                        |                       M'                        |                       M'                        |
+| :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: |
+| <img src="4c/1.png" alt="drawing" width="200"/> | <img src="4c/2.png" alt="drawing" width="200"/> | <img src="4c/3.png" alt="drawing" width="200"/> | <img src="4c/4.png" alt="drawing" width="200"/> |
+
+Figura 1: peça <span style="color:red">**Vermelho**</span> e <span style="color:#9c9720">**Amarelo**</span> entre os centros <span style="color:orange">**Laranja**</span> e **Branco**  ~> **COMPLETAMENTE ERRADA**
+
+Figura 2: peça <span style="color:orange">**Laranja**</span> e <span style="color:#9c9720">**Amarelo**</span> entre os centros <span style="color:orange">**Laranja**</span> e <span style="color:#9c9720">**Amarelo**</span> ~> **COMPLETAMENTE CERTA**
+
+Figura 3: peça <span style="color:red">**Vermelho**</span> e **Branco** entre os centros <span style="color:red">**Vermelho**</span> e <span style="color:#9c9720">**Amarelo**</span> 
+
+Figura 4: peça <span style="color:orange">**Laranja**</span> e **Branco** entre os centros <span style="color:red">**Vermelho**</span> e **Branco**
+
+Para resolvê-lo basta seguir:
+
+* Deixar a peça **COMPLETAMENTE ERRADA** na camada de **CIMA** girando a camada **M**
+* Deixar a peça **COMPLETAMENTE CERTA** na camada de **BAIXO** girando a camada **M**
+* Trocar as peças de **CIMA** com **U2**
+
+Esse processo irá criar outra peça **COMPLETAMENTE CERTA**. Então basta fazer:
+
+* Deixar as 2 peças **COMPLETAMENTE CERTAS** na camada de **BAIXO** girando a camada **M**
+* Trocar as peças de **CIMA** com **U2**
+* Girar a camada **M** para finalizar o Cubo.
+
+Abaixo é mostrado um exemplo.
+
+|                     Exemplo                     |                       M2                        |                       U2                        |                        M                        |                       U2                        |                        M                        |
+| :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: |
+| <img src="4c/3.png" alt="drawing" width="200"/> | <img src="4c/1.png" alt="drawing" width="200"/> | <img src="4c/5.png" alt="drawing" width="200"/> | <img src="4c/6.png" alt="drawing" width="200"/> | <img src="4c/7.png" alt="drawing" width="200"/> | <img src="4c/8.png" alt="drawing" width="200"/> |
+
+Pode acontecer de não haver nenhuma peça **COMPLETAMENTE ERRADA**. Nesse caso, as duas trocas vão acontecer na **HORIZONTAL**l ou na **VERTICAL**, como nos exemplos.
+
+|                   Horizontal                    |                        U2                        |                        M2                        |                        U2                        |                       M2                        |
+| :---------------------------------------------: | :----------------------------------------------: | :----------------------------------------------: | :----------------------------------------------: | :---------------------------------------------: |
+| <img src="4c/9.png" alt="drawing" width="200"/> | <img src="4c/10.png" alt="drawing" width="200"/> | <img src="4c/11.png" alt="drawing" width="200"/> | <img src="4c/12.png" alt="drawing" width="200"/> | <img src="4c/8.png" alt="drawing" width="200"/> |
+
+
+
+|                     Vertical                     |                        M'                        |                        U2                        |                        M2                        |                        U2                        |                        M                        |
+| :----------------------------------------------: | :----------------------------------------------: | :----------------------------------------------: | :----------------------------------------------: | :----------------------------------------------: | :---------------------------------------------: |
+| <img src="4c/13.png" alt="drawing" width="200"/> | <img src="4c/14.png" alt="drawing" width="200"/> | <img src="4c/15.png" alt="drawing" width="200"/> | <img src="4c/16.png" alt="drawing" width="200"/> | <img src="4c/17.png" alt="drawing" width="200"/> | <img src="4c/8.png" alt="drawing" width="200"/> |
+
+Por fim, pode acontecer de todas as peças estarem **COMPLETAMENTE ERRADAS** ou **TODOS OS CENTROS**. Nesses casos, chamados de **DOTS**, é mais vantajoso trocar os centros entre si.
+
+|                       Dots                       |                        E2                        |                        M                         |                        E2                        |                        M                        |
+| :----------------------------------------------: | :----------------------------------------------: | :----------------------------------------------: | :----------------------------------------------: | :---------------------------------------------: |
+| <img src="4c/18.png" alt="drawing" width="200"/> | <img src="4c/19.png" alt="drawing" width="200"/> | <img src="4c/20.png" alt="drawing" width="200"/> | <img src="4c/21.png" alt="drawing" width="200"/> | <img src="4c/8.png" alt="drawing" width="200"/> |
+
+|                       Dots                       |                        E2                        |                        M                         |                        E2                        |                       M'                        |
+| :----------------------------------------------: | :----------------------------------------------: | :----------------------------------------------: | :----------------------------------------------: | :---------------------------------------------: |
+| <img src="4c/22.png" alt="drawing" width="200"/> | <img src="4c/23.png" alt="drawing" width="200"/> | <img src="4c/24.png" alt="drawing" width="200"/> | <img src="4c/25.png" alt="drawing" width="200"/> | <img src="4c/8.png" alt="drawing" width="200"/> |
+
+##                            
